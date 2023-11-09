@@ -1,5 +1,7 @@
 body{
+    font-family: 'Dekko', cursive;
     margin-top:100px;
+    font-size: 20px;
 }
 
 ul{
@@ -7,19 +9,42 @@ ul{
     padding: 0;
 }
 ul li{
-    border:1px solid grey;
-    list-style: none;
-    padding: 5px;
-}
-
-
-h1{
-  text-align:center;  
-}
-
-
-input{
-    border:none;
+    
+    list-style:none;  
+    display: flex;
+    justify-content: space-between;
     width:100%;
+    padding: 20px;
+    padding-left:20px;
+    color: grey;
+    border:solid 1px lightgray;
+    
 }
 
+
+.heading {
+  font-weight: 800;
+  text-align:center;  
+  margin-bottom: 30px;
+}
+
+
+.container{
+    width: 500px;
+}
+
+.form input {
+    width:100%;
+    padding: 10px;
+    color: grey;
+    border:solid 3px transparent;
+    border-bottom: dashed 3px lightgrey;
+    margin-bottom: 20px;
+    font-style: italic;
+  
+}
+
+.tasksLeft{
+    margin-top:40px;
+    
+}
